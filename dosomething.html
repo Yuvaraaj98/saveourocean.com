@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Do Something</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!--Heading-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="dosomething.html">DO SOMETHING</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="pfh.html">PLASTIC FREE HOME</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li class="search-icon">
+                        <input type="search" placeholder="Search">
+                        <i class="fa fa-search"></i>
+                      </li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+              <a href="donate.html" button type="submit" class="hero-btn red-btn" >
+                DONATE
+                </a>
+        </nav>
+        <h1>Do Something</h1>
+    </section>
+
+    <!--ds-content-->
+
+    <section class="ds-content">
+        <h1>Prevention is Better than Cure</h1>
+        <div class="photo">
+            <a target="_blank" href="Images/buying.jpg">
+               <img src="images/buying.jpg"> 
+            </a>
+        </div>
+        <h2>1.Stop buying water.</h2>
+        <p>Each year, close to 20 billion plastic bottles are tossed in the trash. Carry a reusable bottle in your bag, and you’ll never be caught having to resort to a Poland Spring or Evian again. If you’re nervous about the quality of your local tap water, look for a model with a built-in filter.</p>
+        <div class="photo">
+            <a target="_blank" href="Images/cook.jpg">
+                <img src="images/cook.jpg">
+            </a>
+          </div>
+        <h2>2.Cook more.</h2>
+        <p>Not only is it healthier, but making your own meals doesn’t involve takeout containers or doggy bags. For those times when you do order in or eat out, tell the establishment you don’t need any plastic cutlery or, for some serious extra credit, bring your own food-storage containers to restaurants for leftovers.</p>
+        <div class="photo">
+            <a target="_blank" href="Images/second.jpg">
+              <img src="images/second.jpg">  
+            </a>
+          </div>
+        <h2>3.Purchase items secondhand.</h2>
+        <p>New toys and electronic gadgets, especially, come with all kinds of plastic packaging—from those frustrating hard-to-crack shells to twisty ties. Search the shelves of thrift stores, neighborhood garage sales, or online postings for items that are just as good when previously used. You’ll save yourself a few bucks, too.</p>
+        <div class="photo">
+            <a target="_blank" href="Images/ban.jpg">
+               <img src="images/ban.jpg">  
+            </a>
+          </div>
+        <h2>4.Support a bag tax or ban.</h2>
+        <p>Urge your elected officials to follow the lead of those in San Francisco, Chicago, and close to 150 other cities and counties by introducing or supporting legislation that would make plastic-bag use less desirable.</p>
+        <div class="photo">
+            <a target="_blank" href="Images/bulk.jpg">
+              <img src="images/bulk.jpg">   
+            </a>
+          </div>
+        <h2>5.Buy in bulk.</h2>
+        <p>Single-serving yogurts, travel-size toiletries, tiny packages of nuts—consider the product-to-packaging ratio of items you tend to buy often and select the bigger container instead of buying several smaller ones over time.</p>
+        <div class="photo">
+            <a target="_blank" href="Images/bag.jpg">
+              <img src="images/bag.jpg">  
+            </a>
+          </div>
+        <h2>6.Bring your own garment bag to the dry cleaner.</h2>
+        <p>Invest in a zippered fabric bag and request that your cleaned items be returned in it instead of sheathed in plastic. (And while you’re at it, make sure you’re frequenting a dry cleaner that skips the perc, a toxic chemical found in some cleaning solvents.</p>
+        <div class="photo">
+            <a target="_blank" href="Images/reuse.jpg">
+               <img src="images/reuse.jpg"> 
+            </a>
+          </div>
+        <h2>7.Wean yourself off disposable plastics.</h2>
+        <p>Ninety percent of the plastic items in our daily lives are used once and then chucked: grocery bags, plastic wrap, disposable cutlery, straws, coffee-cup lids. Take note of how often you rely on these products and replace them with reusable versions. It only takes a few times of bringing your own bags to the store, silverware to the office, or travel mug to Starbucks before it becomes habit.</p>
+    </section>
+
+
+
+
+    
+    <!--Footer-->
+    <section>
+        <div class="social">
+        <h4>Save Our Ocean</h4>
+        <p>Be a part of sollution, not a part of Pollution.</p>
+        <ul>
+          <li><a href="#"><i class="fa">&#xf09a;</i></a></li>
+          <li><a href="#"><i class="fa">&#xf099;</i></a></li>
+          <li><a href="#"><i class="fa">&#xf16a;</i></a></li>
+        </ul>
+        </div>
+    </section>
+    
+    <!--JavaScript-->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+    
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    
+    </body>
