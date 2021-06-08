@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images//Ocean\ view.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images//Ocean\ view.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -468,7 +468,7 @@ div.statistic1 {
   .sub-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/plastic-pollution-1002940646_4000x3000.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/plastic-pollution-1002940646_4000x3000.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
